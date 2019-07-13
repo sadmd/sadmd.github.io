@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+.instaLogo{
+    width: 80px;
+    margin: 0;
+    float: right;
+}
+
+html{
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h4{
+    margin: 0;
+}
+
+h1 {
+    margin-left: 80px;
+}
+
+header{
+    height: 60px;
+    background-color: #3d313f;
+    margin: 0 0 1% 0;
+    width: 100%;
+    float: left;
+    font-size: 2.5vw;
+    text-align: center;
+    line-height: 60px;
+    color: #ebe5d9;
+}
+
+footer{
+    height: 65px;
+    background-color: #3d313f;
+    width: 100%;
+    float: left;
+    color: #ebe5d9;
+    line-height: 65px;
+    text-align: center;
+}
+
+body {
+    background-color: #ebe5d9;
+    height: 100%;
+    float: left;
+}
+
+img{
+        float:left;
+        width: 99%;  
+        margin: 0 0.5% 1% 0.5%;
+    }
+
+.latest {
+    position: absolute;
+    top: 1vw;
+    left: 2vw;
+    font-size: 3.5vw;
+    color: #ebe5d9;
+}
+
+.images {
+    float: left;
+    width: 100%;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    float: left;
+    position: relative;
+    margin: 0;
+}
+
+.mainImage{
+    width: 99%;
+    margin: 0 0 1% 0.5%;
+}
+
+video{
+    width: 99%;
+    height: auto;
+    margin: 0 0.5% 1% 0.5%;
+    float: left;
+}
+
+.mainVideo{
+    width:99%;
+}
+
+@media only screen and (min-width: 768px){
+    video{
+        width: 49%;
+        height: auto;
+        margin: 0 0.5% 1% 0.5%;
+        float: left;
+    }
+
+    img{
+        float:left;
+        width: 49%;  
+        margin: 0 0.5% 1% 0.5%;
+    }
+
+    footer{
+        height: 85px;
+        background-color: #3d313f;
+        width: 100%;
+        float: left;
+        color: #ebe5d9;
+        line-height: 85px;
+        text-align: center;
+    }
+
+    header{
+        font-size: 1.5vw;
+    }
+}
+
+@media only screen and (min-width: 1300px){
+    .container{
+        width: 70%;
+        float: left;
+        position: relative;
+        margin: 0 0 0 15%;
+    }
+
+    .images {
+        float: left;
+        width: 70%;
+        margin: 0 0 0 15%;
+    }
+
+    .latest {
+        position: absolute;
+        top: 1vw;
+        left: 2vw;
+        font-size: 2.5vw;
+        color: #ebe5d9;
+    }
+
+    header{
+        font-size: 1vw;
+    }
+}
+
